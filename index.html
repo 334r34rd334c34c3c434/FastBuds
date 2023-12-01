@@ -17,8 +17,6 @@
     <link rel="icon" href="/img/logo.ico">
     <title>Fast Buds Comprar Semillas de coleccion</title>
 
-
-
 </head>
 <style>
     * {
@@ -374,25 +372,6 @@
             <p>Ganadores de multiples Copas Cannabicas</p>
         </div>
         <a href="/productos.html" class="btn" style="text-decoration: none;">Ver catálogo</a>
-
-        <input type="range" id="sliderInput" min="0" max="3" value="0" step="1" oninput="changeSlide()">
-    </section>
-    <section>
-        <h1 style="text-align: center; margin-top: 50px;">Elige tu <strong style="color: green;">Favorita!</strong></h1>
-        <div class="slider">
-            <div class="slide"> <img src="" alt="Logo" class="logo strawberry">
-            </div>
-            <div class="slide"> <img src="" alt="Logo" class="logo lemon pie">
-            </div>
-            <div class="slide"> <img src="" alt="Logo" class="logo gorilla cookies">
-            </div>
-            <div class="slide"> <img src="" alt="Logo" class="logo purple punch">
-            </div>
-            <div class="slide"> <img src="" alt="Logo" class="logo ">
-            </div>
-            <div class="slide"> <img src="" alt="Logo" class="logo ">
-            </div>
-
         </div>
     </section>
     <section class="galery">
@@ -452,46 +431,6 @@
             <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
         </div>
     </footer>
-    <script>
-        const intervaloCambio = 5000;
-        const slider = document.getElementById('sliderInput');
-        const sliderContainer = document.querySelector('.slider');
-        const totalImages = 5;
-
-        function changeSlide() {
-            const slides = document.querySelectorAll('.slide');
-            const slideWidth = slides[0].offsetWidth;
-            const sliderValue = slider.value;
-
-            sliderContainer.style.transform = `translateX(${-sliderValue * slideWidth}px)`;
-        }
-
-        function autoChangeSlide() {
-            let currentValue = parseInt(slider.value, 10);
-
-            if (currentValue === totalImages - 1) {
-                slider.value = 0;
-            } else {
-                slider.value = currentValue + 1;
-            }
-
-            changeSlide();
-        }
-
-        setInterval(autoChangeSlide, intervaloCambio);
-
-        slider.addEventListener('input', changeSlide);
-
-        $(document).ready(function () {
-            $('.slider-2').slick({
-                autoplay: true,
-                autoplaySpeed: 3000,
-                dots: true,
-                arrows: true
-            });
-        });
-
-    </script>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-RF6EGWYVZN"></script>
