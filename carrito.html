@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carrito - BudsSeedsCo</title>
+    <title>Carrito</title>
     <link rel="icon" href="/img/logo.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
@@ -175,11 +175,11 @@
 <body>
     <header>
         <nav>
-            <a href="home.html">
+            <a href="index.html">
                 <img src="/img/logo.png" alt="Logo de Fast Buds">
             </a>
             <div class="nav-links">
-                <a href="home.html">Inicio</a>
+                <a href="index.html">Inicio</a>
                 <a href="productos.html">Productos</a>
                 <a href="nosotros.html">Nosotros</a>
                 <a href="nosotros.html">FAQ</a>
@@ -300,7 +300,7 @@
             const pagarButton = document.getElementById('pagar-btn');
             pagarButton.addEventListener('click', () => {
                 const totalCarrito = document.getElementById("total-carrito").textContent;
-                const url = `metodo.html?total=${totalCarrito}`;
+                const url = `pago.html?total=${totalCarrito}`;
                 window.location.href = url;
             });
         });
