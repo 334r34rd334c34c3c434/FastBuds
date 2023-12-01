@@ -1,0 +1,123 @@
+[
+    {
+        "nombre": "Gorilla Glue x3",
+        "imagen": "/img/semillas/gorillaglue.png",
+        "precio": 6,
+        "detalle": "detalle_producto.html",
+        "descripcion": "La noqueadora. 24% de THC que viene con un colocón contundente. La más pegajosa del juego. Tanta resina que literalmente te pegará los dedos. Rendimiento masivo. Hasta 600gr/m2 y lista para cosechar en sólo 70 días. Extremadamente potente. Un efecto profundamente relajante con el colocón mental ideal, ideal para consumidores ávidos y amantes de los híbridos. Mejor que nunca. Cogollos super densos con cálices gordos empapados en resina. Crece hasta perderse de vista. Grande y tupida, variedad perfecta para cultivar en exterior."
+    },
+    {
+        "nombre": "Blue berry x3",
+        "imagen": "/img/semillas/blueberry.png",
+        "precio": 9,
+        "descripcion": "Brotes de arándanos recién recolectados. ¡Un delicioso sabor a muffin de arándanos que se apoderará de toda la habitación! Subidón sin ansiedad. Conocida por no provocar ansiedad, una gran elección para aquellos que experimentan paranoia o problemas relacionados al fumar. Adecuada para principiantes. Fácil de cultivar, asegúrate de proporcionarle lo básico y ya está. Verdaderamente afrutada. Sabe a lo que debe, a terpenos de arándanos. "
+    },
+    {
+        "nombre": "Grape Fruit x3",
+        "imagen": "/img/semillas/grapefruit.png",
+        "precio": 9,
+        "descripcion": "Terpenos afrutados impecables. Pomelo agrio fresco con matices terrosos, un sabor extraordinario para las extracciones. Baja y robusta. Perfecta para cultivadores con espacio limitado, esta variedad crece alrededor de 90 cm y es convenientemente compacta. A prueba de tontos. Una genética de bajo mantenimiento, super fácil de cultivar. ¡Crece en frío! Una planta muy fiable que crece bien incluso en climas fríos y húmedos. Espera lo mejor. En sólo 70 días serás recompensado con 600gr/m2 de cogollos de primera calidad, difícil de superar."
+    },
+    {
+        "nombre": "California Snow x3",
+        "imagen": "/img/semillas/californiasnow.png",
+        "precio": 6,
+        "descripcion": "Lo mejor de Cali. Una variedad soberbia creada a partir de excepcionales sativas californianas y nuestra propia genética autofloreciente. Flores increíblemente resinosas. La loca produccion de tricomas muestra su potencia sin siquiera olerla. Como morder una manzana. La deliciosa mezcla de caramelo dulce y manzanas ácidas te dejará con ganas de más. Sky-high. Un subidón muy eufórico y duradero, ideal para situaciones sociales. Súper helada. ¿Adivina de dónde viene el nombre de esta variedad? De los cogollos."
+    },
+    {
+        "nombre": "Amnesia Haze x3",
+        "imagen": "/img/semillas/amneziahaze.png",
+        "precio": 9,
+        "descripcion": "Efecto potente. El efecto perfecto para aquellos que buscan un fuerte subidón Sativa que te dejará volando durante todo el día. Gran rendimiento. Debido a su tamaño, ¡puedes esperar hasta 650 gr/m2! Herencia Sativa de pura sangre. Recomendada especialmente para climas cálidos, donde la verás volar de verdad. Una de las autos más altas. Esta variedad haze puede crecer hasta 150cm, así que asegúrate de tener suficiente espacio disponible. ¡Una versión mejorada del clásico! Nuestra versión mejorada de esta cepa clásica viene con un olor floral con matices cítricos que llevará a los cultivadores de la vieja escuela de vuelta a los viejos tiempos."
+    },
+    {
+        "nombre": "Gorilla Cookies x3",
+        "imagen": "/img/semillas/gorillacookies.png",
+        "precio": 6,
+        "descripcion": "¡Potencia descomunal! Una de las autoflorecientes más fuertes del mundo hasta el día de hoy, con una producción de tricomas demencial. Súper fiable e increíblemente resistente. Este cultivar heredó todas las mejores cualidades de sus padres, lo que la convierte en una variedad infalible incluso para cultivadores principiantes. Productora masiva. Crece alrededor de 150 cm y puede producir hasta 650 gr/m2 en 10 semanas. Cogollos gruesos y densos. Produce cogollos del tamaño de una pelota de golf, completamente cubiertos de tricomas y con un aroma excepcional, una gran elección para cultivadores comerciales y extractores. Ideal para principiantes. Ideal para cultivadores principiantes que buscan una variedad potente, resistente y fácil de cultivar."
+    },
+    {
+        "nombre": "Lemon Pie x3",
+        "imagen": "/img/semillas/lemonpie.png",
+        "precio": 9,
+        "descripcion": "¡Potencia impecable! Una de nuestras ultimas creaciones, años y años de crianza dieron como resultado una variedad agridulce y extremadamente potente. Rápida producción y rápida floración. Esta variedad puede producir 550gr/m2 de flores increíblemente resinosas en 56-63 días. Deliciosa resina. El perfil único de terpenos de skunk, cítricos y pastel dulce hace que los extractos más deliciosos. Fácil de cultivar. Requiere poco mantenimiento y es muy resistente a las plagas, ideal para cultivadores principiantes en interior o exterior. Perfectamente compacta. Crece bastante compacta y robusta, ideal para cultivadores con espacios limitados. Híbrido Indica muy equilibrado. Perfecta para aquellos que buscan un efecto cerebral y corporal afinado."
+    },
+    {
+        "nombre": "Banana Purple Punch x3",
+        "imagen": "/img/semillas/bananapurplepunch.png",
+        "precio": 6,
+        "descripcion": "El campeón púrpura. Las cabezas moradas se enamorarán. La más afrutada de todas. El sueño de todo fabricante de hachís hecho realidad. Fuerte y sin estrés. Una sonrisa en cada calada. Tantos sabores en tan poco tiempo. Hasta 450 - 550 gr/m2 en sólo 56 días. Una Indica sólida. Te adormece, la variedad perfecta para la noche."
+    },
+    {
+        "nombre": "Wedding Cheesecake x3",
+        "imagen": "/img/semillas/weedingcheesecake.png",
+        "precio": 6,
+        "descripcion": "¡Exquisitos niveles de potencia! Un efecto deliciosamente potente para aquellos con una alta tolerancia. Una variedad infalible para cultivadores comerciales. Esta variedad desarrolla cogollos increiblemente grandes con una gruesa capa de resina y puede producir hasta 600gr/m2 en solo 70 dias. Muy resistente. Tiene un rendimiento excepcional en condiciones no ideales, ideal para cultivadores que quieren cultivar todo el año a pesar del clima. Produce rápidamente. En sólo 63 días desde la semilla hasta la cosecha, esta variedad puede producir hasta 300 gramos por planta en exterior. Sabrosos terpenos. Puedes esperar un sabroso sabor a tarta de queso cremosa con matices afrutados que te mantendrán expectante después de cada calada."
+    },
+    {
+        "nombre": "Orange Sherbet x3",
+        "imagen": "/img/semillas/orangesherbet.png",
+        "precio": 6,
+        "descripcion": "Potencia escandalosa. Uno de nuestros últimos lanzamientos, con un efecto extremadamente potente y estimulante. Perfecta para todos los cultivadores. Perfectamente adecuada para todo tipo de cultivo, se puede cultivar en interior sin preocuparse y rendirá excepcionalmente bien en exterior, durante todo el año. Gigante sativa dominante. Creciendo hasta 150cm, esta variedad puede producir hasta 650gr/m2 en menos de 70 días, perfecta para cultivadores comerciales que quieren una cosecha rápida. Increíblemente resistente. Esta variedad puede ir sin mucho mantenimiento desde la semilla hasta la cosecha, perfecta para cultivadores ocupados. Imprescindible para extractores. Produce una cantidad insana de resina en los cogollos y el follaje circundante, así que ¡prepara tu cubo de recortes! Terpenos de primera. Cantidades insanas de terpenos frescos de zumo de naranja que te dejarán con ganas de más y más."
+    },
+    {
+        "nombre": "Strawberry Pie x3",
+        "imagen": "/img/semillas/strawberrypie.png",
+        "precio": 6,
+        "descripcion": "¡Un potente 26 % de THC! Una de nuestras variedades más poderosas, tanto en efectos como en terpenos, combina pura delicia afrutada con una potencia extraordinaria.  Tricomas impresionantes. Cerca del final de la floración verás los cogollos completamente cubiertos de resina de la cabeza a los pies.  Alto rendimiento. ¡Esta variedad puede producir hasta 550 g/m² en menos de 65 días! Cogollos de caramelo. La compleja mezcla de masa de galleta, nata y gas da a esta variedad un sabor a caramelo de fresa. Perfecta para cultivadores discretos. Una variedad excepcionalmente compacta que no crece más de 100 cm, ideal para cultivos limitados."
+    },
+    {
+        "nombre": "Purple Punch x3",
+        "imagen": "/img/semillas/purplepunch.png",
+        "precio": 6,
+        "descripcion": "Una planta grande con rendimientos aún mayores. Espere una autofloreciente monstruosa con rendimientos que alcanzan hasta los 600 gr/m2. Excelencia en terpenos. Un perfil de terpenos distintivo muy buscado por los extractores. Genética de primer nivel. ¡Una de las cepas más populares en los dispensarios de Cali ahora mejorada y en versión Auto! Una Indica Indispensable. Una Indica potente con un toque ligeramente Sativa, perfecta para el uso diario. El único golpe que quieres recibir. Un efecto potente que te dará un doble golpe a la mente y al cuerpo. "
+    },
+    {
+        "nombre": "Delta 8 Northern Ligth",
+        "imagen": "/img/vape/northernligth.jpg",
+        "precio": 5,
+        "descripcion": "Calmante y estimulante, nuestro cartucho Northern Lights transmite una sensación de calma difícil de encontrar. Aproximadamente 100 inhalaciones por cartucho 92% Delta-8 THC Notas terrosas y calmantes de terpenos Northern Lights, con toques de pino Derivado del cáñamo cultivado en Estados Unidos Laboratorio probado para pureza y calidad."
+    },
+    {
+        "nombre": "Delta 8 Gelato",
+        "imagen": "/img/vape/gelato.jpg",
+        "precio": 5,
+        "descripcion": ""
+    },
+    {
+        "nombre": "Delta 8 Bubba Kush",
+        "imagen": "/img/vape/bubakush.jpg",
+        "precio": 5,
+        "descripcion": ""
+    },
+    {
+        "nombre": "Delta 8 Blue Dream",
+        "imagen": "/img/vape/bluedream.jpg",
+        "precio": 5,
+        "descripcion": ""
+    },
+    {
+        "nombre": "Delta 8 Watermelon Zkittlez",
+        "imagen": "/img/vape/watermelonzkittlez.jpg",
+        "precio": 5,
+        "descripcion": ""
+    },
+    {
+        "nombre": "Hoodie",
+        "imagen": "/img/merch/hoodie.png",
+        "precio": 5,
+        "descripcion": ""
+    },
+    {
+        "nombre": "Gorra",
+        "imagen": "/img/merch/gorra.png",
+        "precio": 5,
+        "descripcion": ""
+    },
+    {
+        "nombre": "Bandeja",
+        "imagen": "/img/merch/bandeja.png",
+        "precio": 5,
+        "descripcion": ""
+    }
+]
