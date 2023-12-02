@@ -240,11 +240,15 @@
         color: orangered;
     }
 
-    .slider-2 {
+    .merch-slider {
         text-align: center;
+    }
+
+    .slider-2 {
         display: flex;
-        flex-wrap: nowrap;
         overflow: hidden;
+        justify-content: center;
+        align-items: center;
     }
 
     .slider-2 div {
@@ -253,15 +257,14 @@
     }
 
     .slider-2 img {
-        width: 50%;
-        height: 70%;
+        width: 80%;
+        height: auto;
         transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     }
 
     .slider-2 img:hover {
         transform: rotate(15deg);
     }
-
 
     @media only screen and (max-width: 600px) {
 
@@ -326,7 +329,16 @@
             justify-content: center;
 
         }
+        .slider-2 {
+            flex-direction: column;
+        }
+
+        .slider-2 div {
+            margin-bottom: 10px;
+        }
+
     }
+
 
     @media only screen and (min-width: 1440px) and (max-width: 1440px) and (min-height: 900px) and (max-height: 900px) {
         .galery img {
@@ -408,11 +420,11 @@
     <section class="merch-slider">
         <a href="/productos.html">
             <div class="slider-2">
-                <div><img src="/merch/hoodie.png" alt="Hoodie de Fastbuds"></div>
-                <div><img src="/merch/macetaplastico.png" alt="Maceta de plastico con logo Fastbuds"></div>
-                <div><img src="/merch/bolsahermetica.png" alt="Bolsa hermetica para guardado"></div>
-                <div><img src="/merch/bandejademetal.png" alt="Bandeja de metal para enrolado"></div>
-                <div><img src="/merch/macetadetela.png" alt="Maceta de tela para Cannabis"></div>
+                <div><img src="/img/merch/hoodie.png" alt="Hoodie de Fastbuds"></div>
+                <div><img src="/img/merch/macetadeplastico.png" alt="Maceta de plastico con logo Fastbuds"></div>
+                <div><img src="/img/merch/bolsahermetica.png" alt="Bolsa hermetica para guardado"></div>
+                <div><img src="/img/merch/bandejademetal.png" alt="Bandeja de metal para enrolado"></div>
+                <div><img src="/img/merch/macetadetela.png" alt="Maceta de tela para Cannabis"></div>
             </div>
     </section>
     </a>
