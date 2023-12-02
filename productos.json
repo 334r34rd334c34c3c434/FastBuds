@@ -85,31 +85,19 @@
         "descripcion": ""
     },
     {
-        "nombre": "Delta 8 Bubba Kush",
-        "imagen": "/img/vape/bubakush.jpg",
-        "precio": 10,
-        "descripcion": ""
-    },
-    {
-        "nombre": "Delta 8 Blue Dream",
-        "imagen": "/img/vape/bluedream.jpg",
-        "precio": 10,
-        "descripcion": ""
-    },
-    {
         "nombre": "Delta 8 Watermelon Zkittlez",
         "imagen": "/img/vape/strawberrylemonade.jpg",
         "precio": 10,
         "descripcion": ""
     },
     {
-        "nombre": "Hoodie",
+        "nombre": "Hoodie Fast Buds",
         "imagen": "/img/merch/hoodie.png",
         "precio": 5,
         "descripcion": ""
     },
     {
-        "nombre": "Gorra",
+        "nombre": "Maceta de Plastico",
         "imagen": "/img/merch/macetadeplastico.png",
         "precio": 5,
         "descripcion": ""
@@ -121,7 +109,7 @@
         "descripcion": ""
     },
     {
-        "nombre": "Bandeja",
+        "nombre": "Bandeja Fast Buds",
         "imagen": "/img/merch/bandejademetal.png",
         "precio": 5,
         "descripcion": ""
