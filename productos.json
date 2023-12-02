@@ -73,13 +73,13 @@
         "descripcion": "Una planta grande con rendimientos aún mayores. Espere una autofloreciente monstruosa con rendimientos que alcanzan hasta los 600 gr/m2. Excelencia en terpenos. Un perfil de terpenos distintivo muy buscado por los extractores. Genética de primer nivel. ¡Una de las cepas más populares en los dispensarios de Cali ahora mejorada y en versión Auto! Una Indica Indispensable. Una Indica potente con un toque ligeramente Sativa, perfecta para el uso diario. El único golpe que quieres recibir. Un efecto potente que te dará un doble golpe a la mente y al cuerpo. "
     },
     {
-        "nombre": "Delta 8 Northern Ligth",
+        "nombre": "Delta 8 Banana Kush 20 Ml",
         "imagen": "/img/vape/northernligth.jpg",
         "precio": 5,
-        "descripcion": "Calmante y estimulante, nuestro cartucho Northern Lights transmite una sensación de calma difícil de encontrar. Aproximadamente 100 inhalaciones por cartucho 92% Delta-8 THC Notas terrosas y calmantes de terpenos Northern Lights, con toques de pino Derivado del cáñamo cultivado en Estados Unidos Laboratorio probado para pureza y calidad."
+        "descripcion": ""
     },
     {
-        "nombre": "Delta 8 Gelato",
+        "nombre": "Delta 8 Gelato 20 Ml",
         "imagen": "/img/vape/gelato.jpg",
         "precio": 5,
         "descripcion": ""
@@ -87,19 +87,19 @@
     {
         "nombre": "Delta 8 Bubba Kush",
         "imagen": "/img/vape/bubakush.jpg",
-        "precio": 5,
+        "precio": 10,
         "descripcion": ""
     },
     {
         "nombre": "Delta 8 Blue Dream",
         "imagen": "/img/vape/bluedream.jpg",
-        "precio": 5,
+        "precio": 10,
         "descripcion": ""
     },
     {
         "nombre": "Delta 8 Watermelon Zkittlez",
-        "imagen": "/img/vape/watermelonzkittlez.jpg",
-        "precio": 5,
+        "imagen": "/img/vape/strawberrylemonade.jpg",
+        "precio": 10,
         "descripcion": ""
     },
     {
@@ -110,13 +110,19 @@
     },
     {
         "nombre": "Gorra",
-        "imagen": "/img/merch/gorra.png",
+        "imagen": "/img/merch/macetadeplastico.png",
+        "precio": 5,
+        "descripcion": ""
+    },
+    {
+        "nombre": "Maceta de Tela",
+        "imagen": "/img/merch/macetadetela.png",
         "precio": 5,
         "descripcion": ""
     },
     {
         "nombre": "Bandeja",
-        "imagen": "/img/merch/bandeja.png",
+        "imagen": "/img/merch/bandejademetal.png",
         "precio": 5,
         "descripcion": ""
     }
