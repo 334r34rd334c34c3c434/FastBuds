@@ -76,42 +76,43 @@
         "nombre": "Delta 8 Banana Kush 20 Ml",
         "imagen": "/img/vape/northernligth.jpg",
         "precio": 5,
-        "descripcion": ""
+        "descripcion": "Descubre la exquisita fusión de sabores tropicales con nuestro Delta 8 Banana Kush de 20 ml. Este líquido para vapeo te transportará a un paraíso de sabor con cada inhalación. Experimenta la suavidad del plátano y el toque distintivo de la Kush en cada bocanada. Una experiencia única que no querrás perderte."
     },
     {
         "nombre": "Delta 8 Gelato 20 Ml",
         "imagen": "/img/vape/gelato.jpg",
         "precio": 5,
-        "descripcion": ""
+        "descripcion": "Experimenta una experiencia única con nuestro Delta 8 Gelato de 20 ml. Este líquido para vapeo te brinda un sabor excepcional con cada inhalación. Disfruta de la mezcla perfecta de sabores que harán que cada momento sea inolvidable."
     },
+
     {
-        "nombre": "Delta 8 Watermelon Zkittlez",
+        "nombre": "Delta 8 Watermelon Zkittlez 20 Ml",
         "imagen": "/img/vape/strawberrylemonade.jpg",
         "precio": 10,
-        "descripcion": ""
+        "descripcion": "Sumérgete en la deliciosa explosión de sabores de nuestra Delta 8 Watermelon Zkittlez. Con un toque de sandía y el dulce sabor de los Zkittlez, este líquido para vapeo te llevará a un viaje de placer sensorial. Una elección perfecta para los amantes de los sabores frutales."
     },
     {
         "nombre": "Hoodie Fast Buds",
         "imagen": "/img/merch/hoodie.png",
         "precio": 5,
-        "descripcion": ""
+        "descripcion": "Mantente abrigado con estilo con nuestra sudadera con capucha Fast Buds. Fabricada con materiales de alta calidad, esta sudadera no solo te mantiene cómodo, sino que también muestra tu amor por Fast Buds. Perfecta para cualquier ocasión, desde sesiones de vapeo relajadas hasta salidas casuales."
     },
     {
         "nombre": "Maceta de Plastico",
         "imagen": "/img/merch/macetadeplastico.png",
         "precio": 5,
-        "descripcion": ""
+        "descripcion": "Cultiva tus plantas con nuestra resistente maceta de plástico. Diseñada para proporcionar un ambiente óptimo para el crecimiento de tus plantas, esta maceta es duradera y fácil de usar. Ideal para jardineros principiantes y experimentados por igual."
     },
     {
         "nombre": "Maceta de Tela",
         "imagen": "/img/merch/macetadetela.png",
         "precio": 5,
-        "descripcion": ""
+        "descripcion": "Opta por la versatilidad con nuestra maceta de tela. Esta opción liviana y transpirable permite un mayor flujo de aire y promueve un crecimiento saludable de las raíces. Perfecta para aquellos que buscan una solución de cultivo práctica y eficiente."
     },
     {
         "nombre": "Bandeja Fast Buds",
         "imagen": "/img/merch/bandejademetal.png",
         "precio": 5,
-        "descripcion": ""
+        "descripcion": "Agrega un toque de estilo a tus sesiones de preparación con nuestra bandeja de metal Fast Buds. Con un diseño elegante y funcional, esta bandeja es ideal para organizar tus accesorios y mantener todo en orden. La compañía perfecta para tus momentos de relajación."
     }
 ]
