@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: white;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: green;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    color: greenyellow;
+}
+
+header {
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+nav a:hover {
+    color: greenyellow;
+}
+
+#carrito-container {
+    color: white;
+    text-decoration: none;
+}
+
+#carrito-container:hover {
+    color: greenyellow;
+}
+
+#productos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.producto {
+    width: 250px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    color: black;
+}
+
+.producto p {
+    margin-bottom: 20px;
+}
+
+.producto img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.comprar-button,
+.agregar-button {
+    background-color: green;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.agregar-button:hover,
+.comprar-button:hover {
+    transform: translateY(-5px);
+}
+
+footer {
+    background-color: green;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+.formas-pago i {
+    font-size: 24px;
+    margin: 0 5px;
+    color: #fff;
+}
+
+.redes-footer {
+    margin-top: 20px;
+}
+
+.redes-footer a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #fff;
+}
+
+.redes-footer a:hover {
+    color: greenyellow;
+}
+
+@media only screen and (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    #productos {
+        margin: 10px;
+    }
+
+    .producto {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+    }
+
+    .producto img {
+        width: 50%;
+        height: auto;
+    }
+
+    .comprar-button,
+    .agregar-button {
+        margin-top: 10px;
+    }
+
+    footer {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .formas-pago {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .separador {
+        width: 1px;
+        height: 18px;
+        margin: 0 10px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+}

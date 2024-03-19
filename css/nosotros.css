@@ -1,0 +1,165 @@
+* {
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: green;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    color: greenyellow;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main h1 {
+    font-size: 40px;
+    color: green;
+    margin-bottom: 20px;
+}
+
+main p {
+    font-size: 16px;
+    color: black;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+main h2 {
+    font-size: 24px;
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+main ul {
+    list-style: none;
+    padding: 0;
+}
+
+main li {
+    font-size: 16px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+a {
+    color: orangered;
+    text-decoration: none;
+}
+
+
+footer {
+    background-color: green;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+.formas-pago i {
+    font-size: 24px;
+    margin: 0 5px;
+    color: #fff;
+}
+
+.redes-footer {
+    margin-top: 20px;
+}
+
+.redes-footer a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #fff;
+}
+
+.redes-footer a:hover {
+    color: greenyellow;
+}
+
+strong {
+    color: green;
+}
+
+@media only screen and (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+
+    .hero p {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .btn {
+        margin-top: 20px;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    main h1,
+    main h2,
+    main p,
+    main ul {
+        font-size: 16px;
+    }
+
+    footer {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .formas-pago {
+        font-size: 18px;
+    }
+
+    .separador {
+        width: 1px;
+        height: 18px;
+        margin: 0 10px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+}
