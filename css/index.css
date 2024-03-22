@@ -52,6 +52,11 @@ nav a:hover {
     margin-top: -199px;
 }
 
+.hero p {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
 
 .slider {
     display: flex;
